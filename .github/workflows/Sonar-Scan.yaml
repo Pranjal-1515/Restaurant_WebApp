@@ -21,7 +21,7 @@ jobs:
       - name: Run SonarQube Scan
         run: |
           sonar-scanner \
-            -Dsonar.projectKey=Restaurant_WebApp \
-            -Dsonar.organization=Pranjal \
+            -Dsonar.projectKey=Pranjal-1515_Restaurant_WebApp \
+            -Dsonar.organization=pranjal-1515 \
             -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.login=${{ secrets.Test_Sonar }}  
